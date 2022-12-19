@@ -4,8 +4,9 @@
    $usuario = 'root';
    $clave = '';
    $sevidor = 'localhost';
-   $basededatos = 'tp1';
-
+   // $basededatos = 'tp1';
+   $basededatos = 'gordineta';
+   
    // Paso 2: Creamos la conexión
    // clase nativa PHP trabajo seguro ..
    // or die version vieja
