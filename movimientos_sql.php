@@ -9,6 +9,7 @@
   $p_concepto = $_POST['concepto'];
   $p_importe = $_POST['importe'];
   $p_obs = $_POST['obs'];
+  $p_movim = $_POST['movim'];
 
   echo $p_concepto;
   echo $p_importe;
@@ -66,10 +67,18 @@
   
   // las altas deben ser todas ingresadas, repetidas o no
   // $fecha='2022-12-19';
-  $signo=1;
+  // $signo=1;
+
+  if($p_movim=='egreso'){
+    $signo= -1;
+  }else{
+    $signo= 1;
+  }
+
+  echo $signo;
 
   $alta = "insert into gordineta (concepto, importe, signo, obs) values('$p_concepto','$p_importe','$signo','$p_obs')";
   $resultado_alta = mysqli_query($conexion,$alta);
-  header("location: index.php?mensaje=alta ingresdacorrectamente");
+  header("location: index.php?mensaje=alta ingresada correctamente");
 
 ?>

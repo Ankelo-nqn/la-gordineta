@@ -12,6 +12,7 @@
     error();
     cargabootstrap();
     menu();
+    $mensaje = $_GET['mensaje'];
   ?>  
 </head>
 
@@ -20,5 +21,7 @@
   <h1 class="text-center">La Gordineta Neuquina</h1>
   <h2 class="text-center">Control de gastos</h2>
   <h3 class="text-center">Inicio</h3>
+  <br><br>
+  <?php echo "<br><h3 class='text-center'>$mensaje</h3>" ?>
 </body>
 </html>

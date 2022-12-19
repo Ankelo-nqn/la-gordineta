@@ -54,11 +54,25 @@
                 <input type="number" id="importe" name="importe" placeholder="Escriba el importe" class="form-control form-control-user" required>
               </div>
               <br>
+              <!-- Ingreso o Egreso -->
+                <fieldset>
+                  <legend>Tipo de movimiento</legend>
+                  <div class="form-group">
+                    <label>
+                    <input type="radio" name="movim" value="ingreso" required>Ingreso
+                    </label>
+                  </div>
+                  <div class="form-group">
+                    <label>
+                    <input type="radio" name="movim" value="egreso">Egreso
+                    </label>
+                  </div>
+                </fieldset>
+                <br>
               <div class="form-group">
                 <label for="obs" style="color:green" class="font-weight-bold">Notas: </label>
                 <input type="text" id="obs" name="obs" placeholder="Notas adicionales" class="form-control form-control-user">
               </div>
-              <br><br>
             </div> 
 
             
