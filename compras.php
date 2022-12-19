@@ -12,9 +12,10 @@
     error();
     cargabootstrap();
     menu();
-    $mensaje = 'Hola mensaje!';
+    $mensaje = 'Estamos registrando una compra';
   ?>  
 </head>
+<!-- compras.php y ventas.php son copia de registrarse.php recortado y adaptado-->
 <body>
   <!-- Cabecera -->
   <br><br>
@@ -44,7 +45,7 @@
             <div class="box-header with-border">
               <h3 class="box-title">Dar alta compras</h3>
             </div>
-            <form action="registrarse_sql.php" method="POST" class="user">
+            <form action="registrarse_compras_sql.php" method="POST" class="user">
               <div class="box-body">
                 <div class="form-group">
                   <!-- Opciones de concepto de compra-->  
@@ -59,33 +60,35 @@
                 <br>
                 <div class="form-group">
                   <label for="clave" style="color:green" class="font-weight-bold">Ingrese el importe:    </label>
-                  <input type="text" id="clave" name="clave" placehoslder="Escriba la clave" class="form-control form-control-user" required>
+                  <input type="text" id="clave" name="clave" placeholder="Escriba la clave" class="form-control form-control-user" required>
                 </div>
                 <br>
                 <div class="form-group">
                   <label for="usuario" style="color:green" class="font-weight-bold">Notas: </label>
-                  <input type="text" id="rol" name="rol" placehoslder="Escriba el perfil" class="form-control form-control-user" required>
+                  <input type="text" id="rol" name="rol" placeholder="Escriba el perfil" class="form-control form-control-user" required>
                 </div>
                 <br>
                 
               </div> 
 
+              
+              <!-- Footer -->
               <div class="box-footer">
                 <br>
                 <button type="submit" class="btn btn-primary container-fluid">Cargar registro</button>
                 <br><br>
-                <?php echo $mensaje; ?>                  
-              </div>
-            </form>
-          </div>
+                <div class="col-4 mx-auto">
+                  <a href="index.php" class="btn btn-lg btn-success container-fluid">Salir</a>
+                </div>
+                
+              
+              <!-- Mensaje al usuario -->
+              <?php echo $mensaje; ?>                  
+            </div>
+          </form>
         </div>
+      </div>
     </section>
-
-
-  <!-- Footer -->
-  <div class="col-4 mx-auto">
-    <a href="index.php" class="btn btn-lg btn-success">Salir</a>
-  </div>
-  <div class="col-4"></div>
-</body>
+    
+  </body>
 </html>

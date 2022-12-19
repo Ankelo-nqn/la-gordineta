@@ -28,7 +28,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Medallón de Merluza</a></li>
-            <li><a class="dropdown-item" href="#">Medallón de Merlusa con Jamón y Queso</a></li>
+            <li><a class="dropdown-item" href="#">Medallón de Merluza con Jamón y Queso</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Filet de Merluza a las Finas hierbas</a></li>
             <li><a class="dropdown-item" href="#">Filet de Merluza</a></li>
