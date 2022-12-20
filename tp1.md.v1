@@ -2,17 +2,13 @@
 ### Sistema de gestión "La Gordineta"
 #### Angel Cellillo
 
-### Desarrollo.
-
+Desarrollo.
 La resolución del presente trabajo deberá contar como mínimo con los siguientes puntos:
-
 1- Descripción general del sistema web a desarrollar.
-
 2- Determinar los roles o perfiles de todos los usuarios del sistema.
-
 3- Identificar las tablas principales de la base de datos y las relaciones entre ellas.
-
-4- Describir brevemente los diferentes módulos del sistema y las funcionalidades que cada uno tiene para sus usuarios.
+4- Describir brevemente los diferentes módulos del sistema y las
+funcionalidades que cada uno tiene para sus usuarios.
 
 
 1.- Se requiere un sistema de gestión que permita controlar los ingresos y egresos de dinero de una empresa dedidaca a la venta de alimentos. Se consideraran para ello ingresos por ventas y egresos por compras de mercaderías y gastos.
@@ -80,37 +76,21 @@ En inicio el sistema valida al usuario y deriva al/los programas correspondiente
 En cargas de movimientos, el usuario carga los datos compatibles con los permisos asignados, en este caso, egresos para los usuarios "compras", ingresos para los usuarios "ventas"
 En muestra movimientos y saldos el sistema rastrea y sumariza los datos de la base de datos, recorriendo sus tablas y acumulando los datos que sean necesarios.
 
-5.- To Do
-
-	- Completar la lista de campo de cada tabla
-	- Detallar la descripción de cada campo para poder realizar las validaciones correspondientes
-	- Iniciar y controlar sesiones de PHP en cada archivo
-	- Controlar la cantidad de reintentos de accesso y limitarlos
-	- Extender el número de informes
-	- Calcular y mostrar datos estadísticos que permitan hacer más eficiente las tareas diarias
-	- Convertirlo en un sistema de gestión que abarque temas de facturación, logística y liquidación de impuestos
-	- Participar a los usuarios del sistema para que aporten ideas y críticas.
-
-	- Fundamental: divertirse en el proceso
 
 
-
-### Conclusión:
+Conclusión:
 
 Este es un esbozo, elemental, del sistema de gestión utilizado. Para su desarrollo se requiera utilizar lenguajes, framewords y herramientas, en mi caso: HTML, CSS, Bootstrap, MySQL, XAMPP, PHP
 La idea es que en esta mecánica simple se pueda ir ampliando coordinando el día a día real con el desarrollo del sistema, que en realidad fue lo que inspiró la idea del mismo. La idea inicial surgió cuando en mi propio negocio, hasta ahora manejado con planilla de cálculo, me plantee esta idea para automatizar los cálculos que hasta ahora eran sumarizados con tablas dinámicas. Útiles pero laboriosas y propensas a errores humanos que planeo disminuir
 
 
-### Conclusión 2:
+Conclusión 2:
 
 Me gustó mucho el desarrollo del curso. Realmente muy ameno la forma en que se expusieron los contenidos, fue muy claro para mí, que si bien tenía "idea" de lo que estábamos trabajando, nunca había podido redondear completamente las ideas haciendo algo, que aunque incipiente, sea funcional.
 
 Muchas gracias!
 
 pd: este documento puede consultarse on line en la siguiente dirección:
-
-		(https://github.com/Ankelo-nqn/la-gordineta/blob/main/tp1.md)
-
-y el código desarrollado aquí:
-		
-		(https://github.com/Ankelo-nqn/la-gordineta)
+		 https://la-gordineta
+	y el código desarrollado aquí:
+		https://la-gordineta
