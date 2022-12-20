@@ -23,18 +23,27 @@ La resolución del presente trabajo deberá contar como mínimo con los sigui
 	- Usuario "administrador", con acceso a todos los puntos del sistema
 
 3,- El sistema contará con las siguientes tablas en su base de datos:
+	
 	- usuarios
+	
 	- productos
+	
 	- rubros 
+	
 	- clientes
+	
 	- proveedores
 
 	Relaciones entre tablas:
 
 	- usuarios: integrará todos los datos correspondientes de los usuarios del sistema, así como también los permisos asignados a las diferentes áreas del sistema
+	
 	- productos: podrán ser accedidos por todos los usuarios del sistema a precio de venta, con restricción de usuario a los precios de costo y datos de proveedor.
+	
 	- rubros: serán asinados y accedidos unicamente por los usuarios administradores y solo vistos por otros usuarios
+	
 	- clientes: cargados por el usuario administrador, recordemos tiene acceso total a las tablas de la base, y consultados y utilizados en las registraciones por los usuarios con permisos de "ventas"
+	
 	- proveedores: cargados por el usuario administrador, y consultados y utilizados por los usuarios con permisos de "ventas"
 
 
