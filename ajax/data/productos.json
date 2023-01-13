@@ -1,0 +1,39 @@
+{
+  "data" : [
+    {
+      "articulo": "0000",
+      "descripcion": "Artículo 0",
+      "foto": "<img class='category-icon' width='40' id='producto0' src='img/egg-svgrepo-com.svg'>",
+      "incidencia": "3827",
+      "precio": "10000"
+    },
+    {
+      "articulo": "0001",
+      "descripcion": "Artículo 1",
+      "foto": "<img class='category-icon' width='40' id='producto1' src='img/egg-svgrepo-com.svg'>",
+      "incidencia": "4825",
+      "precio": "800"
+    },
+    {
+      "articulo": "0002",
+      "descripcion": "Artículo 2",
+      "foto": "<img class='category-icon' width='40' id='producto2' src='img/egg-svgrepo-com.svg'>",
+      "incidencia": "9300",
+      "precio": "1500"
+    },
+    {
+      "articulo": "0003",
+      "descripcion": "Artículo 3",
+      "foto": "<img class='category-icon' width='40' id='producto3' src='img/egg-svgrepo-com.svg'>",
+      "incidencia": "8547",
+      "precio": "2200"
+    },
+    {
+      "articulo": "0004",
+      "descripcion": "Artículo 4",
+      "foto": "<img class='category-icon' width='40' id='producto4' src='img/egg-svgrepo-com.svg'>",
+      "incidencia": "6722",
+      "precio": "4200"
+    }
+  ]
+}

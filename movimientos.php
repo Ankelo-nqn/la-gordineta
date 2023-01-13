@@ -5,17 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movimientos</title>
-  <?php
-    include 'include/cargabootstrap.php';
-    include 'include/menu.php';
+
+  <!-- Favicon -->
+  <link href="img/egg-svgrepo-com.svg" rel="shorcut icon" type="image/png" />
+
+<?php
+    include 'include/cargaframeworks.php';
+    cargaframeworks();
+
     include 'include/error.php';
     error();
-    cargabootstrap();
+
+    include 'include/menu.php';
     menu();
     $mensaje = 'Estamos registrando un movimiento';
   ?>  
+
 </head>
+
 <!-- compras.php y ventas.php son copia de registrarse.php recortado y adaptado-->
+
 <body>
   <!-- Cabecera -->
   <br><br>

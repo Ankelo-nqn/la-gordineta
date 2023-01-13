@@ -5,20 +5,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Control de Gastos</title>
+  <!-- Favicon -->
+  <link href="img/egg-svgrepo-com.svg" rel="shorcut icon" type="image/png" />
+
   <?php
-    include 'include/cargabootstrap.php';
+
+    include 'include/cargaframeworks.php';
+    cargaframeworks();
+
     include 'include/menu.php';
+    menu();
+
     include 'include/error.php';
     error();
-    cargabootstrap();
-    menu();
-    $mensaje = $_GET['mensaje'];
-  ?>  
-  <script type="text/javascript">
-    function mensaje(){
-      alert("Un mensaje de prueba");
+    
+    /**
+     * Mensajes al usuario
+     */
+
+    $mensaje = "Ingrese los datos";
+    if(isset($_GET['mensaje'])) {
+      if($_GET['mensaje']=='uno') { $mensaje = 'El dato ya existe';}
+      if($_GET['mensaje']=='dos') { $mensaje = 'El email es inválido';}
+      if($_GET['mensaje']=='tres') { $mensaje = 'Los datos son incorrectos';}
     }
-  </script>
+  ?>  
+ 
 </head>
 
 <body>
@@ -32,10 +44,7 @@
     <h2 class="text-center">Control de gastos</h2>
     <h3 class="text-center">Inicio</h3>
     <br><br>
-    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-      <button class="btn btn-primary me-md-2" type="button" onclick="js/mensaje.js" >Externo</button>
-      <button class="btn btn-primary" type="button" onclick="mensaje()">Mensaje</button>
-    </div>
+    
   </div>
 
   <!-- Columna Derecha -->
@@ -44,4 +53,4 @@
   <!-- Footer -->
   <?php echo "<br><h3 class='text-center'>$mensaje</h3>" ?>
 </body>
-</html>
+</html> 

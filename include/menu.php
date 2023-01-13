@@ -3,8 +3,8 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.php" src="img/2Q.png">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="index.php">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -27,19 +27,25 @@
             Productos
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Medallón de Merluza</a></li>
-            <li><a class="dropdown-item" href="#">Medallón de Merluza con Jamón y Queso</a></li>
+            <li><a class="dropdown-item" href="lista.php">Lista</a></li>
+            <li><a class="dropdown-item" href="#">Opción 2</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Filet de Merluza a las Finas hierbas</a></li>
-            <li><a class="dropdown-item" href="#">Filet de Merluza</a></li>
+            <li><a class="dropdown-item" href="#">Opción 3</a></li>
+            <li><a class="dropdown-item" href="#">Opción 4</a></li>
           </ul>
         </li>
         
       </ul>
+
+      <!-- Busqueda
+
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Búsqueda</button>
       </form>
+
+      -->
+    
     </div>
   </div>
 </nav>
