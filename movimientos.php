@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lange="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,6 +18,7 @@
 
     include 'include/menu.php';
     menu();
+    
     $mensaje = 'Estamos registrando un movimiento';
   ?>  
 
