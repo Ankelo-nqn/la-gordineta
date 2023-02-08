@@ -94,7 +94,4 @@ Me gustó mucho el desarrollo del curso. Realmente muy ameno la forma en que se 
 
 Muchas gracias!
 
-pd: este documento puede consultarse on line en la siguiente dirección:
-		 https://la-gordineta
-	y el código desarrollado aquí:
-		https://la-gordineta
+
