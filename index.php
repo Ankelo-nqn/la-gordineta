@@ -40,7 +40,7 @@
   <!-- Cuerpo -->
   <div class="col-6">
     <br><br>
-    <h1 class="text-center">La Gordineta Neuquina</h1>
+    <h1 class="text-center">TP Final Full Stack Neuquina</h1>
     <h2 class="text-center">Control de gastos</h2>
     <h3 class="text-center">Inicio</h3>
     <br><br>

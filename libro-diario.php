@@ -25,7 +25,7 @@
 <body>
 
   <br><br>
-  <h1 class="text-center">La Gordineta Neuquina</h1>
+  <h1 class="text-center">TP Final Full Stack Neuquina</h1>
   <h2 class="text-center">Libro Diario</h2>
 
 </body>
